@@ -7,12 +7,14 @@ import About from "./About";
 import user from "../data/user";
 console.log(user);
 
-function App() {
+function App(props) {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home hey = { <h1 style={{ color: props.color }}>
+        {props.name} is a Web Developer from {props.city}
+      </h1>} />
+      <About  />
     </div>
   );
 }
