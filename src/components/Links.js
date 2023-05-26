@@ -4,7 +4,7 @@ import user from "../data/user";
 
 
 function Links(props){
-    console.log(props)
+    
     return (
         <div>
     <h3>Links</h3>

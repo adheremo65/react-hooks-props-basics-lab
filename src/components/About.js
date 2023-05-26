@@ -10,9 +10,11 @@ function About(props) {
 
   return (
     <div id="about">
-      
+
       <h2>About Me</h2>
-      {isBio?  <p>{props.bio}</p>:"Null" }
+      
+      
+      {isBio?  <p>{props.bio}</p> :"Null" }
       
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       <Links github = {user.links.github} linkedin = {user.links.linkedin}/>
